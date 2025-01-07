@@ -3,7 +3,7 @@ import { AnimateOnScroll } from './AnimateOnScroll';
 
 export function TimedOffer() {
   return (
-    <AnimateOnScroll className="fixed bottom-4 left-4 right-4 md:bottom-8 md:left-1/2 md:-translate-x-1/2 md:w-full md:max-w-lg">
+    <AnimateOnScroll className="fixed bottom-4 left-4 right-4 md:bottom-8 md:left-1/2 md:-translate-x-1/2 md:w-full md:max-w-lg z-[60]">
       <div className="bg-blue-900/90 backdrop-blur-sm p-4 md:p-6 rounded-xl border border-blue-500/20 text-center">
         <h3 className="text-xl md:text-2xl font-bold mb-3 md:mb-4 bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
           Oferta Especial!

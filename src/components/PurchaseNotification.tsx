@@ -22,7 +22,7 @@ export function PurchaseNotification() {
   if (!currentName) return null;
 
   return (
-    <div className="fixed z-50 bottom-4 left-4 right-4 md:left-4 md:right-auto">
+    <div className="fixed z-40 bottom-4 left-4 right-4 md:left-4 md:right-auto">
       <div 
         key={key}
         className="bg-blue-900/90 backdrop-blur-sm text-white p-4 rounded-lg shadow-lg animate-slide-up-fade max-w-[300px] mx-auto md:mx-0"
